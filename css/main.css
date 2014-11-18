@@ -1,6 +1,19 @@
-.headerImg img{
+#headerImg {
+	background-image: url('../images/fly.jpg');
+	background-repeat: no-repeat;
 	width: 100%;
-	padding: 0;
+	height: 400px;
+
+}
+
+.navbarBackground {
+	background: black;
+	width: 150px;
+	height: 100%;
+}
+
+.container-fluid {
+
 }
 
 .navbar {
@@ -10,3 +23,18 @@
 body {
 	background-color: #ffffff;
 }
+
+nav.vertical {
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0,0,0,.15);
+  overflow: hidden;
+  text-align: left;
+}
+
+  nav.vertical > ul {
+    list-style-type: none;
+  }
+
+  nav.vertical > ul > li {
+      display: block;
+  }
