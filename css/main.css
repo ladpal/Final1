@@ -10,6 +10,31 @@
 
 }
 
+@media (min-width: 1262px) {
+    #headerImg p {
+        padding-top: 300px;
+        font-size: 10px;
+        padding-left: 210px;
+        word-spacing: 20px;
+        letter-spacing: 5px;
+    }
+}
+
+.nav li a:hover {
+    background: none;
+}
+
+#headerImg p {
+    padding-top: 307px;
+    font-size: 50px;
+    padding-left: 210px;
+    word-spacing: 20px;
+    letter-spacing: 20px;
+    color: white;
+    opacity: 0.7;
+    display: absolute;
+}
+
 .navBar {
 	background: black;
 	width: 150px;
@@ -36,17 +61,82 @@
     padding-top: 360px;
 }
 
+#home:before {
+    background-color: red;
+}
+
+#publications:before {
+    background: #FFF14E;
+}
+
+#people:before {
+    background: #BC62E8;
+}
+
+#positions:before {
+    background: #5CFFB4;
+}
+
+#teaching:before {
+    background: #FF2F69;
+}
+
+#internal:before {
+    background: #ff8a00;
+}
+
+#fun:before {
+    background: #ff9dd8;
+}
+
+#contact:before {
+    background: #30ff09;
+}
+
+
+.nav li a {
+    color: white;
+    font-size: 20px
+}
+
+li {
+    margin: 0 !important;
+}
+
+.links {
+    z-index: 1;
+    background: none;
+}
+
+
+.links:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 100%;
+    z-index: -1;
+    -webkit-transition: right 0.3s ease-in;
+    -moz-transition: right 0.3s ease-in;
+}
+
+.links:hover:before {
+    right: 0;
+
+}
+
 ul {
     padding: 0;
     top: 360px;
 }
 
-ul a {
-	display: block;
-	background-color: #000000;
-	width: 150px;
-	position: relative;
+.nav li a {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
 }
+
 
 nav.vertical {
   	border-radius: 4px;
