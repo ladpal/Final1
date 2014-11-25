@@ -14,13 +14,47 @@
 
 }
 
-@media (min-width: 1262px) {
+#headerImg p {
+    padding-top: 328px;
+    font-size: 30px;
+    padding-left: 210px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    color: white;
+    opacity: 0.7;
+    display: absolute;
+}
+
+@media (min-width: 1434px) {
     #headerImg p {
-        padding-top: 300px;
-        font-size: 10px;
-        padding-left: 210px;
+        padding-top: 307px;
+        font-size: 50px;
+        padding-left: 70px;
         word-spacing: 20px;
-        letter-spacing: 5px;
+        letter-spacing: 20px;
+        color: white;
+        opacity: 0.7;
+        display: absolute;
+        text-align: center;
+    }
+
+    .content{
+        top: 370px;
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        position: absolute;
+    }
+}
+
+footer p {
+    display: none;
+}
+
+@media (min-height: 958px) {
+    footer p {
+        display: inline;
     }
 }
 
@@ -46,16 +80,7 @@
     opacity: 0.9;
 }
 
-#headerImg p {
-    padding-top: 307px;
-    font-size: 50px;
-    padding-left: 210px;
-    word-spacing: 20px;
-    letter-spacing: 20px;
-    color: white;
-    opacity: 0.7;
-    display: absolute;
-}
+
 
 
 .navbarBackground {
@@ -83,6 +108,7 @@ footer p {
 
 footer .finalLine {
     font-size: 9.5px;
+
 }
 .main {
     position: absolute;
@@ -99,7 +125,7 @@ footer .finalLine {
 }
 
 #publications:before {
-    background: #FFF14E;
+    background: #b0a007;
 }
 
 #people:before {
@@ -107,7 +133,7 @@ footer .finalLine {
 }
 
 #positions:before {
-    background: #5CFFB4;
+    background: #43a26f;
 }
 
 #teaching:before {
@@ -123,7 +149,7 @@ footer .finalLine {
 }
 
 #contact:before {
-    background: #30ff09;
+    background: #1d9909;
 }
 
 
@@ -165,7 +191,7 @@ ul {
 
 .content{
     position: relative;
-    left: 240px;
+    left: 210px;
     top: 370px;
     width: 900px;
 }
