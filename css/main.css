@@ -1,6 +1,26 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
 
+.col-md-4 {
+    text-align: center;
+    position: inherit;
+}
 
+#info {
+    text-align: left;
+    padding-top: 1em;
+}
+
+#infoBottom {
+    text-align: left;
+    padding-top: 1em;
+    margin-bottom: 50px;
+}
+
+
+a {
+    font-size: 20px;
+    text-align: center;
+}
 
 #headerImg {
 	background: url('../images/fly.jpg');
@@ -13,6 +33,7 @@
     height: 360px;
 
 }
+
 
 #headerImg p {
     padding-top: 328px;
@@ -50,6 +71,7 @@
 
 footer p {
     display: none;
+    
 }
 
 @media (min-height: 958px) {
@@ -88,6 +110,7 @@ footer p {
     left:0; top:0; bottom:0;
     width: 200px;
     background-color: #000000;
+    height: 129%;
     z-index:1;
 }
 
@@ -165,8 +188,8 @@ footer .finalLine {
     padding-top: .8em;
     padding-bottom: .8em;
 
-    border-bottom: 1px solid;
-    border-bottom-color: #3D3D3D;
+    border-top: 1px solid;
+    border-top-color: #3D3D3D;
 
 }
 
