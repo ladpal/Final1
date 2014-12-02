@@ -20,6 +20,7 @@
 
     .bs-example{
         display: none;
+        visibility: hidden;
     }
 
 
