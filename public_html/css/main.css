@@ -2,7 +2,6 @@
 
 
 
-
 .page-header h2 {
     color: #563b75;
 }
@@ -15,11 +14,92 @@
     display: none;
 }
 
- .jumbotron p {
-        font-size: 15px;
+.jumbotron p {  
+    font-size: 15px;
 }
 
+/*.navbar {
+    height: 30px;
+    background: #666666;
+    width: auto;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    width: auto;
+    height: 30px;
+}
+
+.navbar-nav > li {
+    float: left;
+    height: 30px;
+}
+
+.navbar-nav > li a {
+    float: left;
+    height: 30px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding-left:10px;
+    padding-right: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+}
+
+.navbar-nav li a:hover {
+    background: #e1e1e1;
+    color: #666666;
+}
+
+.navbar-nav li ul.dropdown {
+    list-style-type: none;
+    clear: both;
+    background: #e1e1e1;
+    display: none;
+}
+
+.navbar-nav li.drop_holder:hover ul.dropdown {
+    display:block
+}
+
+.navbar-nav li ul.dropdown li {
+    height: 30px;
+}
+
+.navbar.dropdown li {
+    padding-left: 0;
+}
+
+.navbar-nav li.drop_holder ul.dropdown li a:hover {
+    background: #a1a1a1;
+    color: #ffffff;
+}
+
+.navbar-nav li.drop_holder {
+    position: relative;
+    z-index: 1;
+}*/
+
 @media (min-width: 700px) {
+
+    .about a {
+        text-decoration: none;
+    }
+
+    /*.about h1:hover {
+        color: #725390;
+    }*/
+
+
+    .about h3:hover {
+        color: #c5bfc3;
+    }
 
     .bs-example{
         display: none;
@@ -63,75 +143,16 @@
     	background-size: cover;
     	width: 100%;
     	background-position: center;
+        position: relative;
         /*position: absolute;
         left:0; right:0;*/
         height: 360px;
 
     }
 
-
-    #headerImg p {
-        padding-top: 328px;
-        font-size: 30px;
-        padding-left: 210px;
-        word-spacing: 5px;
-        letter-spacing: 5px;
-        color: white;
-        opacity: 0.7;
-        display: absolute;
-    }
-
-        .content{
-
-            padding-left: 210px;
-            width: 900px;
-
-
-        }
-
-         .mainPage {
-            position: absolute;
-            width:100%;
-        }
-
-    @media (min-width: 1434px) {
-        #headerImg p {
-            padding-top: 307px;
-            font-size: 50px;
-            padding-left: 70px;
-            word-spacing: 20px;
-            letter-spacing: 20px;
-            color: white;
-            opacity: 0.7;
-            display: absolute;
-            text-align: center;
-        }
-
-        .content{
-            padding-left: 0;
-            width: 900px;
-            margin-left: auto;
-            margin-right: auto;
-            display: block;
-
-        }
-
-
-        .navbarBackground {
-            position: absolute;
-            top:0; left:0;
-        }
-    }
-
     footer p {
         display: none;
-        
-    }
 
-    @media (min-height: 958px) {
-        footer p {
-            display: inline;
-        }
     }
 
     .nav li a:hover {
@@ -160,10 +181,9 @@
 
     .navbarBackground {
         position: absolute;
-        left:0; top:0; bottom:0;
+        left:0; top:0;
         width: 200px;
-        background-color: #000000;
-        height: 100%;
+        background: #000000;
         z-index:1;
     }
 
@@ -255,11 +275,8 @@
         margin: 0 !important;
     }
 
-   
-
     .jumbotron {
         padding:2em;
-
     }
 
     ul {
@@ -311,17 +328,76 @@
 
 
     nav.vertical {
-      	border-radius: 4px;
-      	box-shadow: 0 0 10px rgba(0,0,0,.15);
-      	overflow: hidden;
-      	text-align: left;
+        border-radius: 4px;
+        box-shadow: 0 0 10px rgba(0,0,0,.15);
+        overflow: hidden;
+        text-align: left;
     }
 
-      nav.vertical ul {
+    nav.vertical ul {
         list-style-type: none;
-      }
+    }
 
-      nav.vertical ul ul {
-          display: block;
-      }
+    nav.vertical ul ul {
+        display: block;
+    }
+
+
+    #headerImg p {
+        padding-top: 328px;
+        font-size: 30px;
+        padding-left: 210px;
+        word-spacing: 5px;
+        letter-spacing: 5px;
+        color: white;
+        opacity: 0.7;
+        display: absolute;
+    }
+
+    .content{
+        padding-left: 210px;
+        width: 900px;
+    }
+
+     .mainPage {
+        position: absolute;
+        width:100%;
+    }
+
+    @media (min-width: 1434px) {
+        #headerImg p {
+            padding-top: 307px;
+            font-size: 50px;
+            padding-left: 70px;
+            word-spacing: 20px;
+            letter-spacing: 20px;
+            color: white;
+            opacity: 0.7;
+            display: absolute;
+            text-align: center;
+        }
+
+        .content{
+            padding-left: 0;
+            width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+
+        }
+
+
+        .navbarBackground {
+            position: absolute;
+            top:0; left:0;
+        }
+    }
+
+    @media (min-height: 958px) {
+        footer p {
+            display: inline;
+        }
+    }
+
+
 }

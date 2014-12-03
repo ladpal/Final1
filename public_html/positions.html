@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
     <link href="css/normalize.css" rel="stylesheet" type="text/css" />
     <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js'></script>
+
 </head>
 <body>
 <main class="container-fluid">
@@ -25,10 +28,10 @@
             </div>
             <div class="rowNav">
                 <ul class="nav nav-pills nav-stacked" style="max-width: 300px;">
-                    <li role="presentation" style="background:#FF0000;"><a class="links" id="home" href="index.html">Home</a></li>
+                    <li role="presentation"><a class="links" id="home" href="index.html">Home</a></li>
                     <li role="presentation"><a class="links" id="people" href="People.html">People</a></li>
                     <li role="presentation"><a class="links" id="publications" href="http://www.ncbi.nlm.nih.gov/pubmed?dispmax=25&amp;pmfilter_EDatLimit=No%20Limit&amp;cmd_current=Limits&amp;orig_db=PubMed&amp;cmd=Search&amp;term=pallanck%20l&amp;doptcmdl=DocSum" target="_blank">Publications</a></li>
-                    <li role="presentation"><a class="links" id="positions" href="positions.html">Positions Available</a></li>
+                    <li role="presentation" style="background:#43a26f;"><a class="links" id="positions" href="positions.html">Positions Available</a></li>
                     <li role="presentation"><a class="links" id="teaching" href="teaching.html">Teaching</a></li>
                     <li role="presentation"><a class="links" id="internal" href="teaching.html">Internal</a></li>
                     <li role="presentation"><a class="links" id="fun" href="fun.html">Fun Stuff</a></li>
@@ -43,6 +46,38 @@
             </footer>
         </section>
     </div>
+
+    <div class="bs-example">
+        <nav class="navbar navbar-inverse" role="navigation">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9">
+
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="http://www.gs.washington.edu">UW GENOME SCIENCES</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="People.html">People</a></li>
+                        <li><a href="http://www.ncbi.nlm.nih.gov/pubmed?dispmax=25&amp;pmfilter_EDatLimit=No%20Limit&amp;cmd_current=Limits&amp;orig_db=PubMed&amp;cmd=Search&amp;term=pallanck%20l&amp;doptcmdl=DocSum" >Publications</a></li>
+                        <li class="active"><a href="positions.html">Positions Available</a></li>
+                        <li><a href="teaching.html">Teaching</a></li>
+                        <li><a href="">Internal</a></li>
+                        <li><a href="fun.html">Fun Stuff</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div><!-- /example -->
 
 
     <section class="mainPage">
