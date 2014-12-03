@@ -15,7 +15,9 @@
     display: none;
 }
 
-
+ .jumbotron p {
+        font-size: 15px;
+}
 
 @media (min-width: 700px) {
 
@@ -253,9 +255,7 @@
         margin: 0 !important;
     }
 
-    .jumbotron p {
-        font-size: 15px;
-    }
+   
 
     .jumbotron {
         padding:2em;
