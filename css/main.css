@@ -185,6 +185,7 @@
         width: 200px;
         background: #000000;
         z-index:1;
+        height: 100%; /*remove later*/
     }
 
     footer {
