@@ -26,9 +26,8 @@
         text-decoration: none;
     }
 
-
-    .about h1, h2:hover {
-        opacity: 0.7;
+    .about:hover {
+        opacity: 0.8;
     }
 
     .bs-example{
@@ -113,7 +112,6 @@
         width: 200px;
         background: #000000;
         z-index:1;
-        height: 100%; /*remove later*/
     }
 
     footer {
@@ -215,8 +213,6 @@
 
     .content{
         position: relative;
-        /*left: 210px;
-        top: 370px;*/
         width: 900px;
     }
 
